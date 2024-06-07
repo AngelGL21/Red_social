@@ -1,0 +1,140 @@
+.Usuarios-Principal{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 0fr);
+    grid-template-columns: repeat(4, 0fr);
+    width: auto;
+    height: 92%;
+    justify-content: left;
+    place-items: center;
+    padding-left: 10px;
+    overflow-y: auto;
+}
+
+.Tituilo-Users{
+    margin-left: 10px;
+}
+
+.Foto_users {
+    width: 250px;
+    height: 170px;
+    display: flex; /* Establece el contenedor como un flex container */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    
+    
+}
+
+.Fotos-usurios {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    width: 250px;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor sin distorsionarla */
+    background: rgb(177, 177, 177);
+    object-position: top; /* Muestra la parte superior de la imagen */
+}
+
+
+.Usuarios-Nexus{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: -10px;
+
+}
+.Datos-Users{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    text-align: center;
+    place-items: center;
+    background: rgba(230, 227, 227, 0.323);
+   
+    
+}
+
+.text-Datos{
+    font-size: 9px;
+    width: 150px;
+}
+
+.send{
+    box-shadow: 0px 2px 7px rgb(0, 0, 0);
+    background-color: #0184ffc1;
+    color: white;
+    border-radius: 0.5em;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+.send:hover{
+    background-color: white;
+    color: #0184ff;
+}
+.botones-users{
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+   
+  
+
+}
+
+
+.Datos-Usuarios-nexus{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.CancelarSeguir{
+    border: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 0.5em;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5px;
+    
+}
+.CancelarSeguir:hover{
+ color: red;
+ box-shadow: 0px 2px 5px black;;
+ font-size: 25px;
+}
+
+.Seguir-Tambien{
+    box-shadow: 0px 2px 7px rgb(0, 0, 0);
+    background-color: #0184ffc1;
+    color: white;
+    border-radius: 0.5em;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+.Seguir-Tambien:hover{
+    background-color: white;
+    color: #0184ff;
+}
